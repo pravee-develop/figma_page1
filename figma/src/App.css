@@ -1,0 +1,373 @@
+.document{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    /* padding: 10px; */
+    padding-left: 30px;
+
+}
+
+.leftside{
+    height: 100%;
+    width: 250px;
+    padding: 10px;
+    /* background-color: yellow; */
+}
+/* .leftside h2{
+    font-size: 30px;
+    margin-top: -5px;
+    color: aqua;
+} */
+.logo h2{
+    font-size: 30px;
+    margin-top: -5px;
+    color: aqua;
+}
+.logo span{
+    color: red;
+}
+.leftside h2 i{
+    font-size: 50px;
+    /* margin-top: 20px; */
+}
+.mic{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.mic i{
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(24, 9, 9);
+    color: aliceblue;
+    border-radius: 10px;
+    
+}
+.mic2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+/* nav bar */
+
+.nav-bar{
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar h4 i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.nav-bar h4:hover{
+    color: blue;
+}
+.lastbar{
+    /* padding: 20px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lastbar h4 i{
+    margin-right: 20px;
+}
+
+/* leftside  ending */
+
+.middlesection {
+    width: 450px;
+    padding: 10px;
+    background-color: rgb(250, 250, 248);
+    box-shadow: 3px 3px 3px 5px grey;
+    border-radius: 20px;
+
+
+}
+.main h1{
+    font-size: 40px;
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
+
+.middlesection .toppart{
+    padding: 10px;
+    
+}
+.box-ctn{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+
+.box{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    background-color: rgb(231, 133, 133);
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.ctn{
+    font-size: 15px;
+    margin-top: -15px;
+}
+.ctn h3{
+    font-size: 18px;
+    margin-top: -10px;
+    color: grey;
+}
+.ctn button{
+    background-color: rgb(30, 222, 30);
+    color: black;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+.socialmedia{
+    text-align: center;
+    
+}
+.socialmedia i{
+    padding: 20px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.socialmedia input{
+    align-items: center;
+   width: 65px;
+   height: 30px;
+   padding-left: 10px;
+   margin-top: 10px;
+}
+
+/* middlepart */
+
+
+.middlepart{
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid rgb(179, 177, 177);
+    border-radius: 20px;
+}
+.middlepart h1{
+    margin-top: -10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.middlepart h3{
+    margin-top: -10px;
+    font-size: 20px;
+}
+.middlepart i{
+    padding-right: 10px;
+}
+.middlepart p{
+    margin-top: -20px;
+    margin-left: 35px;
+}
+
+.middlepart p i{
+    background-color: rgb(211, 206, 206);
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* middle last */
+
+.middlelast{
+    background:linear-gradient(blue,pink);
+    padding: 20px;
+    border-radius: 25px;
+    margin: 20px;
+}
+.lasthead{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.lasthead h3{
+    margin-top: -5px;
+
+    margin-left: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.lasthead i{
+    margin-top: -5px;
+    font-size: 25px;
+    margin-left: 160px;
+    color: #fff;
+}
+.lastmiddle{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.lastmiddle img{
+    border-radius: 20px;
+    padding: 10px;
+}
+.lastmiddle p{
+    font-size: 30px;
+    margin-left: -50px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.lastbtm{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 70px;
+
+}
+.lastbtm h2{
+    color: aqua;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lastbtm p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+
+/* last section */
+
+.leftsection{
+    padding: 10px;
+    
+}
+.lefttopbtn{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    margin-left: -100px;
+    margin-top: 150px;
+    background-color: rgb(247, 247, 244);
+    border-radius: 20px;
+}
+.leftsection .lefttop{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 40px;
+    text-align: center;
+    /* background-color: yellow; */
+}
+.lefttop .leftbtn{
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 30px;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lefttop .rightbtn{
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 30px;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contents{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+.cont p i{
+    font-size: 50px;
+    
+}
+.cont h2{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: -90px;
+    color: rgb(9, 9, 9);
+}
+
+.cont h4{
+    font-size: 30px;
+    margin-top: 20px;
+    color: red;
+}
+.cont h3{
+    font-size: 30px;
+    margin-top: 20px;
+    color: green;
+}
+
+
+.leftpart{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.hello{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.leftsidebtm1{
+padding: 10px;
+margin-left: -90px;
+background-color: rgb(245, 241, 241);
+padding-left: 20px;
+border: 2px solid black;
+margin-top: 20px;
+border-radius: 10px;
+padding-right: 30px;
+}
+.filecontent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* padding: 10px; */
+    padding-left: 10px;
+    background-color: rgb(246, 246, 242);
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.filecontent i{
+    font-size: 30px;
+    margin-top: 20px;
+   
+}
+
+
+.leftsidebtm2{
+    padding: 20px;
+    /* background-color: yellow; */
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.leftsidebtm2 h3{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 70px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px dashed green;
+}
